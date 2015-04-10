@@ -1,0 +1,37 @@
+.masthead {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  background-color: $color-main-bg;
+  font-size: 18px;
+  a {
+    display: inline-block;
+    padding: 10px 30px;
+    color: #F4F4F4;
+    line-height: 50px;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .branding {
+    margin-left: 50px;
+    padding-left: 0;
+    font-family: 'Bangers', cursive;
+    font-size: 32px;
+    letter-spacing: 2px;
+    span {
+      color: $color-highlight;
+      font-size: 42px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}
+@media (min-width: $screen-sm-min) {
+  .masthead {
+    .branding {
+      margin-left: 0;
+    }
+  }
+}

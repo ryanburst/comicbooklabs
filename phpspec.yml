@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Burst
+        psr4_prefix: Burst
+        src_path: app

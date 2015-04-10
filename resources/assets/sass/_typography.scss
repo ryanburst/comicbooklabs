@@ -1,0 +1,30 @@
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 10px;
+  text-transform: uppercase;
+  span {
+    &:last-child {
+      color: $color-highlight;
+    }
+  }
+  + hr {
+    width: 30px;
+    height: 0;
+    border-bottom: 2px solid $color-highlight;
+    margin: 25px auto 50px;
+    &.short {
+      margin: 20px 0;
+    }
+  }
+}
+p {
+  &.pre-title,
+  &.post-title {
+    margin: 0;
+    font-size: 0.75em;
+    color: #7c7c7c;
+    letter-spacing: 0.5em;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}

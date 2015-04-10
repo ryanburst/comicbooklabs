@@ -1,0 +1,21 @@
+//== Colors
+//
+$color-main-bg: #32576A; //#217FBE; //#32576A;
+$color-main-bg-darker: darken($color-main-bg,20%); //darken($color-main-bg,30%); //darken($color-main-bg,20%)
+$color-accent: #E43D1D;
+$color-highlight: #3F9F44;
+
+$brand-primary: $color-highlight;
+
+$font-family-sans-serif:  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+//== Components
+//
+$border-radius-base: 0px;
+
+
+//== Buttons
+//
+$btn-default-color: #f4f4f4;
+$btn-default-bg: $color-main-bg;
+$btn-default-border: $color-main-bg;

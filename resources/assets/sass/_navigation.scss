@@ -1,0 +1,15 @@
+.navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@media (min-width: $screen-sm-min) {
+  .navigation {
+    li {
+      display: inline-block;
+      a:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+}
